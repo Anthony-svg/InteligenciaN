@@ -1,0 +1,55 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr)  minmax(200px, 1fr)  minmax(200px, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px 10px;
+}
+.contenedor > div{
+    margin: auto;
+}
+
+.contenido{
+    background-color: #808080;
+    border:1px solid black;
+    padding: 5px 5px;
+}
+
+.botones div > a {
+    text-align: center;
+    display: block;
+    padding: 8px 2px;
+    text-decoration: none;
+    color: white;
+}
+
+input[type="number"]{
+    height: 21px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    width: 80px;
+    margin-left: 35px;
+}
+
+.btnAgregar{
+    background-color: blue;
+    border-radius: 10px;
+    
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.p{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+label{
+    color: white;
+}
